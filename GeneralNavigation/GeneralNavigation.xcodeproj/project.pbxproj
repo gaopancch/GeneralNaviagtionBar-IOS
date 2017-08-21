@@ -13,6 +13,9 @@
 		4DA864911F4AB65700F68BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8648F1F4AB65700F68BD8 /* Main.storyboard */; };
 		4DA864931F4AB65700F68BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA864921F4AB65700F68BD8 /* Assets.xcassets */; };
 		4DA864961F4AB65700F68BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA864941F4AB65700F68BD8 /* LaunchScreen.storyboard */; };
+		4DA864A11F4AB7C600F68BD8 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA864A01F4AB7C600F68BD8 /* ViewController1.m */; };
+		4DA864A41F4AB7D900F68BD8 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA864A31F4AB7D900F68BD8 /* ViewController2.m */; };
+		4DA864A71F4AB7E700F68BD8 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA864A61F4AB7E700F68BD8 /* ViewController3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		4DA864921F4AB65700F68BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA864951F4AB65700F68BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA864971F4AB65700F68BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA8649F1F4AB7C600F68BD8 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		4DA864A01F4AB7C600F68BD8 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		4DA864A21F4AB7D900F68BD8 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		4DA864A31F4AB7D900F68BD8 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		4DA864A51F4AB7E700F68BD8 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		4DA864A61F4AB7E700F68BD8 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,8 @@
 		4DA864851F4AB65700F68BD8 /* GeneralNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				4DA864A81F4AB85600F68BD8 /* constant value */,
+				4DA8649E1F4AB79100F68BD8 /* demo controller */,
 				4DA864891F4AB65700F68BD8 /* AppDelegate.h */,
 				4DA8648A1F4AB65700F68BD8 /* AppDelegate.m */,
 				4DA8648C1F4AB65700F68BD8 /* ViewController.h */,
@@ -77,6 +88,26 @@
 				4DA864871F4AB65700F68BD8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DA8649E1F4AB79100F68BD8 /* demo controller */ = {
+			isa = PBXGroup;
+			children = (
+				4DA8649F1F4AB7C600F68BD8 /* ViewController1.h */,
+				4DA864A01F4AB7C600F68BD8 /* ViewController1.m */,
+				4DA864A21F4AB7D900F68BD8 /* ViewController2.h */,
+				4DA864A31F4AB7D900F68BD8 /* ViewController2.m */,
+				4DA864A51F4AB7E700F68BD8 /* ViewController3.h */,
+				4DA864A61F4AB7E700F68BD8 /* ViewController3.m */,
+			);
+			name = "demo controller";
+			sourceTree = "<group>";
+		};
+		4DA864A81F4AB85600F68BD8 /* constant value */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "constant value";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +182,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DA864A11F4AB7C600F68BD8 /* ViewController1.m in Sources */,
 				4DA8648E1F4AB65700F68BD8 /* ViewController.m in Sources */,
+				4DA864A71F4AB7E700F68BD8 /* ViewController3.m in Sources */,
+				4DA864A41F4AB7D900F68BD8 /* ViewController2.m in Sources */,
 				4DA8648B1F4AB65700F68BD8 /* AppDelegate.m in Sources */,
 				4DA864881F4AB65700F68BD8 /* main.m in Sources */,
 			);

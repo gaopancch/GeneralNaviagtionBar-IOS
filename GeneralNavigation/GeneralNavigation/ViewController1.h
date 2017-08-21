@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewController1.h
 //  GeneralNavigation
 //
 //  Created by letv on 2017/8/21.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController1 : UIViewController
 {
     UILabel* nameLabel;
 }
-@end
 
+@end
