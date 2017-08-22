@@ -35,6 +35,7 @@
 		4DA864A31F4AB7D900F68BD8 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		4DA864A51F4AB7E700F68BD8 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
 		4DA864A61F4AB7E700F68BD8 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		4DA864A91F4BD5BC00F68BD8 /* ConstantValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantValue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 		4DA864A81F4AB85600F68BD8 /* constant value */ = {
 			isa = PBXGroup;
 			children = (
+				4DA864A91F4BD5BC00F68BD8 /* ConstantValue.h */,
 			);
 			name = "constant value";
 			sourceTree = "<group>";
@@ -348,6 +350,7 @@
 				4DA8649C1F4AB65700F68BD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

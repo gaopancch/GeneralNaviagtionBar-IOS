@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ViewController1.h"
+#import "ConstantValue.h"
 
 @interface ViewController ()
 
@@ -22,12 +23,13 @@
     nameLabel=[[UILabel alloc]init];
     nameLabel.text=@"this is root ViewController";
     nameLabel.backgroundColor=[UIColor purpleColor];
-    nameLabel.frame=CGRectMake(self.view.bounds.size.width/2-100, self.view.bounds.size.height/2, 200, 50);
+    nameLabel.frame=CGRectMake(self.view.bounds.size.width/2-LABEL_WITH/2, self.view.bounds.size.height/2, LABEL_WITH, LABEL_HIGHT);
     [self.view addSubview:nameLabel];
 
-    UIBarButtonItem* rightButton=[[UIBarButtonItem alloc]initWithTitle:@"next page" style:UIBarButtonItemStylePlain target:self action:@selector(goNextPage)];
+    UIBarButtonItem* rightButton=[[UIBarButtonItem alloc]initWithTitle:@NEXT_PAGE style:UIBarButtonItemStylePlain target:self action:@selector(goNextPage)];
     self.navigationItem.rightBarButtonItem=rightButton;
-    self.title=@"ViewController";//
+    self.title=NSStringFromClass(self.class);//
+
 }
 
 -(void)goNextPage{
